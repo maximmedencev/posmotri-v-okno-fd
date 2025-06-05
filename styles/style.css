@@ -56,7 +56,6 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 711px 399px;
-  grid-template-rows: 534px;
   grid-template-areas: "result content__details";
   align-items: end;
   width: inherit;
@@ -162,6 +161,8 @@ ol {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  line-height: 100%;
+  margin-bottom: 6px;
 }
 
 .visually-hidden {
@@ -255,9 +256,6 @@ ol {
 
 .search-form__label-text {
   text-decoration: none;
-}
-
-.search-form__label-text {
   margin-left: 5px;
 }
 
